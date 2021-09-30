@@ -1,0 +1,60 @@
+<!doctype html>
+<html>
+    <head>
+        <title>&lt;ARTestv1&gt;</title>
+        <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+       
+    </head>
+
+    <body>
+        <div id="card">
+            <model-viewer src="assets/ransomwarev3___1630909672457.glb"
+                      ios-src="assets/usdz_ransomwarev3___1630909672457.usdz"
+                      poster="assets/poster-astronaut.png"
+                      alt="A 3D model of an astronaut"
+                      shadow-intensity="1"
+                      camera-controls
+                      auto-rotate 
+                      ar
+                      ar-modes="webxr scene-viewer quick-look" >
+            </model-viewer>
+        </div>
+        
+        <div id="card">
+            <model-viewer src="assets/phishing___1630914420542.glb"
+                      ios-src="assets/usdz_phishing___1630914420542.usdz"
+                      poster="assets/poster-astronaut.png"
+                      alt="A 3D model of an astronaut"
+                      shadow-intensity="1"
+                      camera-controls
+                      auto-rotate 
+                      ar
+                      ar-modes="webxr scene-viewer quick-look" >
+            </model-viewer>
+        </div>
+        <div id="card">
+            <model-viewer src="assets/mini_office_setup.glb"
+                      ios-src="assets/mini_office_setup.usdz"
+                      poster="assets/poster-astronaut.png"
+                      alt="A 3D model of an astronaut"
+                      shadow-intensity="1"
+                      camera-controls
+                      auto-rotate 
+                      ar
+                      ar-modes="webxr scene-viewer quick-look" >
+            </model-viewer>
+        </div>
+        
+
+        <script type="module"
+            src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
+        </script>
+
+        <!-- Loads <model-viewer> for old browsers like IE11: -->
+        <script nomodule
+            src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js">
+        </script>
+    </body>
+</html>
